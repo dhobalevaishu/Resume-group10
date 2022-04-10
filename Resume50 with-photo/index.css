@@ -44,22 +44,22 @@ h3{
   display: inline-block;
   position: absolute;
   transform: rotate(-90deg);
-  color: #f6f8f9;
+  color: #fcfeff;
   font-size: 17px;
 }
 .address{
   margin-bottom: 20px;
 }
 .heading-profile{
-  top: 170px;
+  top: 239px;
   left: 20px;
 }
 .heading-objective{
-  top: 333px;
+  top: 416px;
   left: 5px;
 }
 .heading-skills{
-  top: 502px;
+  top: 586px;
   left: 12px;
 }
 .heading-work{
@@ -86,15 +86,11 @@ h3{
   top: 47px;
   right: 160px;
 }
-.heading-projects{
-  top: 1144px;
-  left: 9px;
-}
 .n{
-  color: #f6f8f9;
+  color: #fcfeff;
   font-size: 26px;
   position: relative;
-  top: 39px;
+  top: 107px;
   left: 45px;
   display: inline-block;
 }
@@ -103,7 +99,7 @@ h3{
 }
 .contact,.education,.lang,.refer,.certi,.social{
   margin-bottom: 50px;
-  color: #f6f8f9;
+  color: #fcfeff;
 }
 .edu1,.edu2,.sub-references1{
   margin-bottom: 20px;
@@ -135,17 +131,17 @@ img{
 }
 .first-div .right-data{
   margin-right: 15px;
-  color: #17181a;
+  color: #383737;
   font-weight: 500;
 }
 .name{
   position: relative;
-  top: -23px;
-  left: 73px;
+  top: 53px;
+  left: 17px;
   display: inline-block;
   font-family: Inter;
   font-weight: bold;
-  font-size: 35px;
+  font-size: 18px;
 }
 .address{
   line-height: 17px;
@@ -153,8 +149,8 @@ img{
 .progressbar{
   width: 80%;
   height: 12px;
-  border: 2px solid #282727;
-  background-color: white;
+  border: 2px solid black;
+  background-color: #fdfdfd;
   margin-bottom: 10px;
   position: relative;
   top: 5px;
@@ -243,24 +239,13 @@ img{
 }
 .projects .right-data{
   margin-left: 10px;
-  /* padding-bottom: 50px; */
   position: relative;
-  top: -24px;
+  bottom: 30px;
 }
 .p-link{
   color: rgb(103, 103, 218);
   margin-bottom: 10px;
 }
-.project1{
-  margin-bottom: 30px;
-}
-.p-name{
-  font-weight: bold;
-}
-.p-hr{
-  position: absolute;
-  width: 100%;
-}
-.projects,.social,.certi{
+.projects,.social{
   display: none;
 }

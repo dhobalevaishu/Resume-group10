@@ -10,12 +10,12 @@
   box-sizing: border-box;
 }
 body{
-  width: 750px;
   margin: auto;
   position: relative;
+  width: 750px;
 }
 .container{
-  width: 750px;
+  width: 100%;
   margin: auto;
   box-shadow: 0px 0px 7px 2px #ad9a6f;
   line-height: 21px;
@@ -25,7 +25,7 @@ body{
   grid-template-columns: 65% 1fr;
   background-color: #fdfdfd;
 }
-.header-data,.profile,.objective,.skills,.work,.contact,.education,.pro,.train{
+.header-data,.profile,.objective,.skills,.work,.contact,.education,.lang,.refer,.certi,.projects{
   grid-template-columns: 20% 1fr;
   display: grid;
 }
@@ -51,15 +51,15 @@ h3{
   margin-bottom: 20px;
 }
 .heading-profile{
-  top: 239px;
+  top: 170px;
   left: 20px;
 }
 .heading-objective{
-  top: 416px;
+  top: 333px;
   left: 5px;
 }
 .heading-skills{
-  top: 586px;
+  top: 502px;
   left: 12px;
 }
 .heading-work{
@@ -74,30 +74,38 @@ h3{
   top: 331px;
   right: 187px;
 }
-.heading-pro{
+.heading-lang{
   top: 820px;
-  right: 179px;
+  right: 187px;
 }
-.heading-train{
+.heading-refer{
   top: 973px;
-  right: 190px;
+  right: 185px;
+}
+.heading-certi{
+  top: 47px;
+  right: 160px;
+}
+.heading-projects{
+  top: 1144px;
+  left: 9px;
 }
 .n{
   color: #e2fafc;
   font-size: 26px;
   position: relative;
-  top: 107px;
+  top: 39px;
   left: 45px;
   display: inline-block;
 }
 .profile-para,.obj-para,.skill-data,.expe-data{
   margin: 20px 10px 20px 10px;
 }
-.contact,.education,.pro,.train{
+.contact,.education,.lang,.refer,.certi,.social{
   margin-bottom: 50px;
   color: #e2fafc;
 }
-.edu1,.edu2,.train1{
+.edu1,.edu2,.sub-references1{
   margin-bottom: 20px;
 }
 .contact{
@@ -132,12 +140,12 @@ img{
 }
 .name{
   position: relative;
-  top: 53px;
-  left: 17px;
+  top: -23px;
+  left: 73px;
   display: inline-block;
   font-family: Inter;
   font-weight: bold;
-  font-size: 18px;
+  font-size: 35px;
 }
 .address{
   line-height: 17px;
@@ -151,7 +159,7 @@ img{
   position: relative;
   top: 5px;
 }
-.pro .progressbar{
+.lang .progressbar{
   width: 80%;
   height: 12px;
   border: 1px solid white;
@@ -160,7 +168,7 @@ img{
   position: relative;
   top: 5px;
 }
-.skill,.pro-data{
+.skill,.lang-data{
   display: grid;
   grid-template-columns: 30% 1fr;
   column-gap: 30px;
@@ -169,7 +177,7 @@ img{
   background-color: #0a2b4e;
   height: 100%;
 }
-.pro .fill{
+.lang .fill{
   background-color: white;
   height: 100%;
 }
@@ -194,7 +202,7 @@ img{
 .education .work-time{
   margin-bottom: 6px;
 }
-.train .work-time{
+.refer .work-time,.certi,.social{
   margin-bottom: 6px;
 }
 .bold-para{
@@ -218,6 +226,41 @@ img{
   text-align: justify;
   font-weight: 600;
 }
-.train2{
-  padding-bottom: -130px;
+.certi-para1{
+  margin-bottom: 25px;
+}
+.date{
+  font-weight: bold;
+  font-size: 14px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.certi{
+  position: relative;
+  bottom: 40px;
+}
+.social{
+  margin-left: 20px;
+}
+.projects .right-data{
+  margin-left: 10px;
+  /* padding-bottom: 50px; */
+  position: relative;
+  top: -24px;
+}
+.p-link{
+  color: rgb(103, 103, 218);
+  margin-bottom: 10px;
+}
+.project1{
+  margin-bottom: 30px;
+}
+.p-name{
+  font-weight: bold;
+}
+.p-hr{
+  position: absolute;
+  width: 100%;
+}
+.projects,.social,.certi{
+  display: none;
 }

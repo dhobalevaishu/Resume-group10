@@ -14,8 +14,13 @@
   margin: 0;
   box-sizing: border-box;
 }
-.container{
+body{
+  margin: auto;
+  position: relative;
   width: 750px;
+}
+.container{
+  width: 100%;
   margin: auto;
   box-shadow: 0px 0px 7px 2px #ad9a6f;
   line-height: 22px;
@@ -291,10 +296,28 @@ strong{
 .heading-contact{
   color:#f9fafa;
 }
-.heading-refer,.heading-lang,.heading-social{
+.heading-refer,.heading-lang,.heading-social,.heading-projects,.heading-certi{
   color: #062e29;
   font-weight: bold;
 }
 .heading-skills{
   color: #71a7ee;
+}
+.projects,.certi{
+  margin-top: 30px;
+}
+.p-link{
+  color: rgb(103, 103, 218);
+  margin-bottom: 10px;
+}
+.certi-para1{
+  margin-bottom: 25px;
+}
+.date{
+  font-weight: bold;
+  font-size: 14px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.projects,.certi{
+  display: none;
 }
